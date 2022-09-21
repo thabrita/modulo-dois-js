@@ -29,12 +29,40 @@
 //     }
 // })
 
-const alunas = ['Thaís', 'Verônica', 'Carolina']
+// const alunas = ['Thaís', 'Verônica', 'Carolina']
 
-const cursos = ['JS', 'CSS', 'HTML']
+// const cursos = ['JS', 'CSS', 'HTML']
 
-const pretalab = [alunas, cursos]
+// const pretalab = [alunas, cursos]
 
-const cursosLivres = ['MinasProgram', pretalab, 'Programaria']
+// const cursosLivres = ['MinasProgram', pretalab, 'Programaria']
 
-console.log(cursosLivres[1][1][2])
+// console.log(cursosLivres[1][1][2])
+
+
+const legumes = ['Batata', 'Cenoura', 'Beterraba', 'Mandioca', 'Chuchu', 'Mandioquinha']
+
+console.log(legumes)
+
+// inverte a ordem dos elementos
+legumes.reverse() 
+
+console.log(legumes)
+
+const alfabeto = ['a', 'g', 't', 'e', 'm', 'd', 'z']
+
+console.log(alfabeto)
+
+// coloca os elementos em ordem alfabética
+alfabeto.sort()
+
+console.log(alfabeto)
+
+const idade = [25, 30, 15, 29, 19, 35]
+
+console.log(idade)
+
+// copia elementos na matriz para outra posição
+idade.copyWithin(3, 0)
+
+console.log(idade)
