@@ -40,29 +40,58 @@
 // console.log(cursosLivres[1][1][2])
 
 
-const legumes = ['Batata', 'Cenoura', 'Beterraba', 'Mandioca', 'Chuchu', 'Mandioquinha']
+// const legumes = ['Batata', 'Cenoura', 'Beterraba', 'Mandioca', 'Chuchu', 'Mandioquinha']
 
-console.log(legumes)
+// console.log(legumes)
 
-// inverte a ordem dos elementos
-legumes.reverse() 
+// // inverte a ordem dos elementos
+// legumes.reverse() 
 
-console.log(legumes)
+// console.log(legumes)
 
-const alfabeto = ['a', 'g', 't', 'e', 'm', 'd', 'z']
+// const alfabeto = ['a', 'g', 't', 'e', 'm', 'd', 'z']
 
-console.log(alfabeto)
+// console.log(alfabeto)
 
-// coloca os elementos em ordem alfabética
-alfabeto.sort()
+// // coloca os elementos em ordem alfabética
+// alfabeto.sort()
 
-console.log(alfabeto)
+// console.log(alfabeto)
 
-const idade = [25, 30, 15, 29, 19, 35]
+// const idade = [25, 30, 15, 29, 19, 35]
 
-console.log(idade)
+// console.log(idade)
 
-// copia elementos na matriz para outra posição
-idade.copyWithin(3, 0)
+// // copia elementos na matriz para outra posição
+// idade.copyWithin(3, 0)
 
-console.log(idade)
+// console.log(idade)
+
+const alunas = [
+	{
+  	nome: 'Joyce',
+    nota: 5.5
+  },
+  {
+  	nome: 'Vera',
+    nota: 9,
+    cidade: 'Rio de Janeiro'
+  },
+  {
+  	nome: 'Nath',
+    nota: 6,
+    curso: 'Pretalab'
+  },
+  {
+  	nome: 'Thaís',
+    nota: 7,
+  }
+]
+
+alunas.filter((nota) => {
+  if (nota.nota >= 7) {
+    console.log(nota.nome + ' foi aprovada')
+  } else  {
+    console.log(nota.nome + ' foi reprovada')
+  }
+})
